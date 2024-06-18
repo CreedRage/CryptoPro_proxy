@@ -1,0 +1,4 @@
+curl -v -k POST http://localhost:323/api/v2.3/letters/1/status -H "Authorization: Basic MTQ0ODozM2E4NDZjYy00NTA0LTRjNzAtOGY2NC1kOTQyNGM5NGY5YTc="
+
+curl -X POST http://localhost:323/api/v2.0/letters \
+ -H "Authorization: Basic MTQ0ODozM2E4NDZjYy00NTA0LTRjNzAtOGY2NC1kOTQyNGM5NGY5YTc=; Content-Length: 2929"
